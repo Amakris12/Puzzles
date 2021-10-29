@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    .head{
+        color: rgb(0, 112, 6);
+        text-align: center;
+        font-size: 4rem;
+    }
+    .para{
+        color: rgb(0, 112, 6);
+        text-align: center;
+        margin-top: -2rem;
+    }
+    .div{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        border-radius: 30px;
+        box-shadow:rgb(0, 112, 6) 2px 2px 2px 2px ;
+        height: 10rem;
+    }
+    .divHead{
+        color: rgb(0, 112, 6);
+        width: 40%;
+        text-align: center;
+        position: relative;
+        top: 1rem;
+    }
+    input{
+        position: absolute;
+        right: 20rem;
+        background-color: transparent;
+        box-shadow:rgb(0, 112, 6) 2px 2px 2px 2px ;
+        border-radius: 30px;
+        width: 15rem;
+        height: 1.5rem;
+    }
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(75, 0, 0);
+    .head{
+        text-align: center;
+        font-size: 5rem;
+        color: white;
+    }
+    .Hint{
+        margin-top: -3rem;
+        text-align: center;
+        color: white;
+    }
+    .fieldset{
+        width: 10rem;
+    }
+    p{
+        color: white;
+
+    }
+    label{
+        color: white;
+        
+    }
+    .div{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .score{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 3rem;
+    }
+}

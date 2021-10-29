@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+body .head {
+  color: #007006;
+  text-align: center;
+  font-size: 4rem;
+}
+
+body .para {
+  color: #007006;
+  text-align: center;
+  margin-top: -2rem;
+}
+
+body .div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 30px;
+  -webkit-box-shadow: #007006 2px 2px 2px 2px;
+          box-shadow: #007006 2px 2px 2px 2px;
+  height: 10rem;
+}
+
+body .divHead {
+  color: #007006;
+  width: 40%;
+  text-align: center;
+  position: relative;
+  top: 1rem;
+}
+
+body input {
+  position: absolute;
+  right: 20rem;
+  background-color: transparent;
+  -webkit-box-shadow: #007006 2px 2px 2px 2px;
+          box-shadow: #007006 2px 2px 2px 2px;
+  border-radius: 30px;
+  width: 15rem;
+  height: 1.5rem;
+}
+/*# sourceMappingURL=riddle.css.map */

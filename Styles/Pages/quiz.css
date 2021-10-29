@@ -1,0 +1,47 @@
+body {
+  background-color: #4b0000;
+}
+
+body .head {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+
+body .Hint {
+  margin-top: -3rem;
+  text-align: center;
+  color: white;
+}
+
+body .fieldset {
+  width: 10rem;
+}
+
+body p {
+  color: white;
+}
+
+body label {
+  color: white;
+}
+
+body .div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+body .score {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=quiz.css.map */

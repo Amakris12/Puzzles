@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Styles/Pages/quiz.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1 class="head">First Puzzle</h1>
+    <p class="Hint">Take the quiz and see your results, Best of Luck. <br> Hint: Take a close look at the awsners</p>
+    <div class="div">
+        <fieldset >
+            <p>When was Family Guys First episode made?</p>
+            <input type="radio" id="F1" name="f1" value="Barry Allen">
+            <label for="F1">/January 31, 1999</label><br>
+            <input type="radio" id="f2" name="f1" value="Jay Garrick">
+            <label for="f2">January 30, 1999</label><br>
+            <input type="radio" id="f3" name="f1" value="Wally West">
+            <label for="f3">January 31, 2000</label>
+        </fieldset>
+   </div>
+    <div class="div">
+        <fieldset>
+            <p>Who did Family guy borrow/steal ideas from?</p>
+            <input type="radio" id="m1" name="m1" value="2020">
+            <label for="m1">Friends</label><br>
+            <input type="radio" id="m2" name="m1" value="2022">
+            <label for="m2">Simpsons</label><br>
+            <input type="radio" id="m3" name="m1" value="2021">
+            <label for="m3">American Dad</label>
+        </fieldset>
+    </div>
+    <div class="div">
+        <fieldset>
+            <p>Who created the show Family Guy</p>
+            <input type="radio" id="r1" name="r1" value="Reverse flash">
+            <label for="r1">Seth MacFarlane</label><br>
+            <input type="radio" id="r2" name="r1" value="Flash Reverse">
+            <label for="r2">Matt Groening</label><br>
+            <input type="radio" id="r3" name="r1" value="Savitar">
+            <label for="r3">Brian Griffen</label>
+        </fieldset>
+    </div>
+    <div class="div">
+        <fieldset>
+            <p>Whats the name of Peters Baby</p>
+            <input type="radio" id="g1" name="g1" value="Grant Gustin">
+            <label for="g1">Stewie</label><br>
+            <input type="radio" id="g2" name="g1" value="Lee Harvey Oswald">
+            <label for="g2">Chris</label><br>
+            <input type="radio" id="g3" name="g1" value="Erza Miller">
+            <label for="g3">Fry</label>
+        </fieldset>
+    </div>
+    <div class="div"> 
+        <fieldset>
+            <p>Which Actor Voices Chris Griffen</p>
+            <input type="radio" id="g1" name="q1" value="Grant Gustin">
+            <label for="g1">Patrick Warburton</label><br>
+            <input type="radio" id="g2" name="q1" value="Lee Harvey Oswald">
+            <label for="g2">Adam West</label><br>
+            <input type="radio" id="q3" name="q1" value="Erza Miller">
+            <label for="g3">Seth Green</label>
+        </fieldset>
+    </div>
+    <div class="div">
+        <fieldset>
+            <button type='button' onclick="scored()">Sumbit!</button>
+        </fieldset>
+    </div>
+    <input class="score" type="text" id="score">
+    <script>
+        var score =0;
+        function scored(){
+            if(document.getElementById('F1').checked == true)
+            {
+            score+=2;
+            }
+            else{
+            score = score;
+            }
+            if(document.getElementById('m2').checked == true)
+            {
+            score+=2;
+            }
+            if(document.getElementById('r1').checked == true )
+            {
+            score+=2;
+            }
+            if(document.getElementById('g1').checked == true)
+            {
+            score+=2;
+            }
+            if(document.getElementById('q3').checked == true)
+            {
+            score+=2;
+            }
+            document.getElementById('score').value = score;
+        }
+    </script>
+</body>
+</html>
