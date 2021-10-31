@@ -13,17 +13,33 @@
     <div class="div">
         <h3 class="divHead">Question #1</h3>
         <p class="riddle"></p>
-        <input type="text">
+        <input id="one" type="text">
     </div>
     <div class="div">
         <h3 class="divHead">Question #2</h3>
         <p class="riddle"></p>
-        <input type="text">
+        <input id="two" type="text">
     </div>
     <div class="div">
         <h3 class="divHead">Question #3</h3>
         <p class="riddle"></p>
-        <input type="text">
+        <input id="three" type="text">
     </div>
+    <script>
+        var score =0;
+        function scored(){
+            if(document.getElementById('one').checked == true){
+            score+=2;
+            }else{
+            score = score;
+            }if(document.getElementById('two').checked == true){
+            score+=2;
+            }
+            if(document.getElementById('three').checked == true ){
+            score+=2;
+            }
+            document.getElementById('score').value = score;
+        }
+    </script>
 </body>
 </html>
