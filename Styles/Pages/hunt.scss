@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    h1{
+        color: white;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color: white;
+    }
+    h2{
+        color: rgb(29, 29, 29);
+        position: absolute;
+        bottom: 30rem;
+        left: 15rem;
+    }
+    h3{
+        color: rgb(37, 37, 37);
+        position: absolute;
+        bottom: 0rem;
+    }
+    h4{
+        color: rgb(15, 15, 15);
+        position: absolute;
+        bottom: 0rem;
+        right: 0rem;
+    }
+    h5{
+        color: rgb(29, 29, 29);
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+    }
+    h6{
+        color: rgb(24, 24, 24);
+        position: absolute;
+        right: 0rem;
+    }
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(62, 0, 112);
+    .problems{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .awnsers{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3rem;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+    p{
+        color: white;
+        text-align: center;
+    }
+    h3{
+        color: silver;
+    }
+    h4{
+        color: silver;
+    }
+}

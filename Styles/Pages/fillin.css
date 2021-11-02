@@ -1,0 +1,27 @@
+body {
+  background-color: #2cc3ff;
+}
+
+body .head {
+  color: white;
+  text-align: center;
+}
+
+body .subHead {
+  color: white;
+  text-align: center;
+}
+
+body .holder {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=fillin.css.map */

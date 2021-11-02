@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+body h1 {
+  color: white;
+  text-align: center;
+}
+
+body p {
+  text-align: center;
+  color: white;
+}
+
+body h2 {
+  color: #1d1d1d;
+  position: absolute;
+  bottom: 30rem;
+  left: 15rem;
+}
+
+body h3 {
+  color: #252525;
+  position: absolute;
+  bottom: 0rem;
+}
+
+body h4 {
+  color: #0f0f0f;
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+}
+
+body h5 {
+  color: #1d1d1d;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+}
+
+body h6 {
+  color: #181818;
+  position: absolute;
+  right: 0rem;
+}
+/*# sourceMappingURL=hunt.css.map */

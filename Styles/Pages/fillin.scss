@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(44, 195, 255);
+    .head{
+        color: white;
+        text-align: center;
+    }
+    .subHead{
+        color: white;
+        text-align: center;
+    }
+    .holder{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

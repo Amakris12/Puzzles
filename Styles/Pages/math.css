@@ -1,0 +1,46 @@
+body {
+  background-color: #3e0070;
+}
+
+body .problems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .awnsers {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+}
+
+body h1 {
+  color: white;
+  text-align: center;
+}
+
+body p {
+  color: white;
+  text-align: center;
+}
+
+body h3 {
+  color: silver;
+}
+
+body h4 {
+  color: silver;
+}
+/*# sourceMappingURL=math.css.map */
